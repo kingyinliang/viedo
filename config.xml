@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="A6097134699353" security="false" version="0.0.1">
+
+	<name>娜迦影视</name>
+	<description>Example For APICloud.</description>
+	<author email="developer@apicloud.com" href="http://www.apicloud.com">Developer</author>
+	<content src="index.html"/>
+	<preference name="appCertificateVerify" value="false"/>
+	<preference name="customRefreshHeader" value="UIPullRefreshMotive"/>
+	<access origin="*"/>
+	<preference name="pageBounce" value="false"/>
+	<preference name="appBackground" value="rgba(0,0,0,0.0)"/>
+	<preference name="windowBackground" value="rgba(0,0,0,0.0)"/>
+	<preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)"/>
+	<preference name="hScrollBarEnabled" value="false"/>
+	<preference name="vScrollBarEnabled" value="false"/>
+	<preference name="forbiddenSchemes" value="youku,iqiyi,mgtv,sohu,pptv,1905,miguvideo,le,bilibili"/>
+	<preference name="autoLaunch" value="true"/>
+	<preference name="fullScreen" value="false"/>
+	<preference name="autoUpdate" value="true"/>
+	<preference name="smartUpdate" value="true"/>
+	<preference name="debug" value="false"/>
+	<preference name="statusBarAppearance" value="true"/>
+	<permission name="readPhoneState"/>
+	<permission name="camera"/>
+	<permission name="record"/>
+	<permission name="location"/>
+	<permission name="fileSystem"/>
+	<permission name="internet"/>
+	<permission name="bootCompleted"/>
+	<permission name="hardware"/>
+	<preference name="customRefreshHeader" value="UIPullRefreshMotive"/>
+	<feature name="wx">
+		<param name="urlScheme" value="wx836a58d6fc46a756"/>
+		<param name="apiKey" value="wx836a58d6fc46a756"/>
+		<param name="apiSecret" value="e934a453b41cf0f34b75fd8df94ecc54"/>
+	</feature>
+	<feature name="QQPlus">
+		<param name="urlScheme" value="12f0313114b6e577f9aea6d64d6a0d62" />
+		<param name="apiKey" value="101541440" />
+	</feature>
+</widget>
+
